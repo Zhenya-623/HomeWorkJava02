@@ -13,7 +13,8 @@ public class Hw2 {
         System.out.println("скалярное произведение = " + vector1.scalarMulti(vector2));
         System.out.println("векторное произведение = " + vector1.vectorMulti(vector2));
         System.out.println("косинус угла = " + vector1.cosVector(vector2));
-
+        System.out.println("сумма векторов = " + vector1.sumVector(vector2));
+        System.out.println("разница векторов = " + vector1.difVector(vector2));
     }
 }
 
